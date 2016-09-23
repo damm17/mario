@@ -1,0 +1,128 @@
+h1 {font-family: "Arial", sans-serif;text-transform: uppercase;}
+
+.pixel {
+    width:20px;
+    height:20px;
+}
+
+.black {
+    background:#000;
+}
+
+.red {
+    background:#db1c1c;
+}
+
+.pink {
+    background:#f5ced5;
+}
+
+.row {
+    height: 20px;
+    position:absolute;
+}
+
+#mario-static {
+    background:#fff;
+    width:240px;
+    height:300px;
+}
+
+.mario-hat {
+    position: relative;
+    font-size:0;
+    height:60px;
+}
+
+    .mario-hat div {
+        display: inline-block;
+    }
+
+    .mario-hat .line1 {
+        top:0;
+        left:60px;
+    }
+    .mario-hat .line2 {
+        top:20px;
+        left:40px;
+    }
+    .mario-hat .line3 {
+        top:40px;
+        left:20px;
+    }
+
+.mario-head {
+    position: relative;
+    font-size:0;
+    height:100px;
+}
+
+    .mario-head div {
+        display: inline-block;
+    }
+
+    .mario-head .line1 {
+        top:0;
+        left:20px;
+    }
+    .mario-head .line2 {
+        top:20px;
+        left:0;
+    }
+    .mario-head .line3 {
+        top:40px;
+        left:0;
+    }
+    .mario-head .line4 {
+        top:60px;
+        left:20px;
+    }
+    .mario-head .line5 {
+        top:80px;
+        left:40px;
+    }
+
+.mario-body {
+    position: relative;
+    font-size:0;
+    height:140px;
+}
+
+.mario-body div {
+    display: inline-block;
+}
+
+.mario-body .line1 {
+    top:0;
+    left:20px;
+}
+
+.mario-body .line2 {
+    top:20px;
+    left:0;
+}
+
+.mario-body .line3 {
+    top:40px;
+    left:0;
+}
+
+.mario-body .line4 {
+    top:60px;
+    left:20px;
+}
+
+.mario-body .line5 {
+    top:80px;
+    left:20px;
+}
+
+.mario-body .line6 {
+    top:100px;
+    left:40px;
+}
+
+.mario-body .line7 {
+    bottom:0;
+    left:60px;
+}
